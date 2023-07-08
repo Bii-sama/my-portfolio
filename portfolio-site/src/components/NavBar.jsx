@@ -10,7 +10,7 @@ export default function NavBar() {
         <img src={logo} alt="logo" height="150"  width="180"/>
       <nav>
         <ul>
-            <li><a href="#">About Me</a></li>
+            <li><a href="#profile">About Me</a></li>
             <li><a href="#">My Works</a></li>
             <li><a href="#">Contact Me</a></li>
         </ul>

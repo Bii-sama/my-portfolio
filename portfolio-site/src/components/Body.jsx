@@ -10,13 +10,15 @@ export default function Body() {
             <img src={picture} alt="my-picture" width= "500" height="500"/>
         </section>
 
-        <section className='profile'>
+        <section className='profile' id='profile'>
 <h1>Hi, I'm Abidemi Omosanya</h1>
 <h3>A software engineer based in Lagos</h3>
 <p>I am a skilled and knowledgeable software engineer with expertise in
 React, CSS, JavaScript, TypeScript, and Node.js,
 seeking opportunities to create exceptional web experiences and
 contribute to the success of a dynamic team.</p>
+
+<a href='https://drive.google.com/file/d/169BLXKfchbh79lYCljx-1e2saPbIMDwx/view?usp=drive_link' target='_blank'>Download my CV</a>
         </section>
      
     </div>

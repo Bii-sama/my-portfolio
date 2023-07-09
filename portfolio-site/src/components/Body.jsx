@@ -12,7 +12,7 @@ export default function Body() {
 
         <section className='profile' id='profile'>
 <h1>Hi, I'm Abidemi Omosanya</h1>
-<h3>A software engineer based in Lagos</h3>
+<h3>A software engineer based in Lagos, Nigeria.</h3>
 <p>I am a skilled and knowledgeable software engineer with expertise in
 React, CSS, JavaScript, TypeScript, and Node.js,
 seeking opportunities to create exceptional web experiences and

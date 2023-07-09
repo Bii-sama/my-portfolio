@@ -1,3 +1,82 @@
 .contact-me{
     background-color: #fff;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-me h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.contact-me .section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.contact-me .section .form label{
+    display: block;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.contact-me .section .form input{
+    width: 445px;
+    outline: none;
+    border: 2px solid #00b33c;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.contact-me .section .form textarea{
+    outline: none;
+    border: 2px solid #00b33c;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.contact-me .section .form button{
+    display: block;
+    padding: 10px 25px;
+    border-style: none;
+    background-color: #000;
+    color: #00b33c;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+
+
+}
+
+
+.contact-me .section .contacts{
+    width: 500px;
+}
+
+.contact-me .section .contacts h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.contact-me .section .contacts p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.contact-me .section .contacts a{
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #00b33c;
+    font-weight: 700;
+}
+
+.icon{
+    font-size: 30px;
+    
 }

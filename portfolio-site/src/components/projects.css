@@ -15,7 +15,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
 }
 
 .my-works .works .work-card{
@@ -29,6 +29,8 @@
     
 }
 
+
+
 .my-works .works .work-card .p-visible{
     width: 250px;
     height: 250px;
@@ -36,6 +38,11 @@
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     bottom: 4px;
+    visibility: hidden;
+}
+
+.my-works .works .work-card:hover .p-visible{
+visibility: visible;
 }
 
 .my-works .works .work-card .p-visible p{

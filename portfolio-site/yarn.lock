@@ -2601,6 +2601,7 @@ __metadata:
     eslint-plugin-react-refresh: "npm:^0.3.4"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-icons: "npm:^4.10.1"
     react-router-dom: "npm:^6.11.1"
     vite: "npm:^4.3.2"
   languageName: unknown
@@ -2675,6 +2676,15 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 7c5b915fb793d63563cec1f721e059e6ff0e2855ac116ab5cb7450b6c59398f5e25f95c960ce5cb93504cc58ab724a75a78e99282354e702a0e667d0d787d028
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:^4.10.1":
+  version: 4.10.1
+  resolution: "react-icons@npm:4.10.1"
+  peerDependencies:
+    react: "*"
+  checksum: 40093e4c0ca6b45c8834f73e1ac62e33ef0ab57437462c7f2e96096a62bd4faa767170b0bf3f14f0ab71b5455f3c861407623ba98fe806bac30b943814a7e902
   languageName: node
   linkType: hard
 

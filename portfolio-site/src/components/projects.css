@@ -1,0 +1,57 @@
+.my-works{
+    width: 100%;
+    color: #fff;
+    margin-top: 70px;
+    
+}
+
+.my-works h1{
+   text-align: center;
+   font-size: 50px;
+   margin-bottom: 50px;
+}
+
+.my-works .works{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 70px;
+}
+
+.my-works .works .work-card{
+    margin-left: 60px;
+    width: 350px;
+    position: relative;
+}
+
+.my-works .works .work-card img{
+    border-radius: 7px;
+    
+}
+
+.my-works .works .work-card .p-visible{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 4px;
+}
+
+.my-works .works .work-card .p-visible p{
+    position: relative;
+    top: 70px;
+    color: #00b33c;
+    font-weight: 700;
+}
+
+.my-works .works .work-card .p-visible h3{
+    position: relative;
+    top: 100px;
+    color: #00b33c;
+}
+
+.my-works .works .work-card .p-visible a{
+    color: #fff;
+    text-decoration: none;
+}

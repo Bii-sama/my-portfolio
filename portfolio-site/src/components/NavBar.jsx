@@ -11,7 +11,8 @@ export default function NavBar() {
       <nav>
         <ul>
             <li><a href="#profile">About Me</a></li>
-            <li><a href="#">My Works</a></li>
+            <li><a href="#services">My Services</a></li>
+            <li><a href="#works">My Works</a></li>
             <li><a href="#">Contact Me</a></li>
         </ul>
       </nav>

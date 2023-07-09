@@ -7,11 +7,17 @@ import './contact.css'
 
 
 export default function ContactMe() {
+
+  const handleEmailClick = () => {
+    window.location.href = "mailto:mail.bidemi75@gmail.com"
+    alert('Message successfully sent')
+  };
+
   return (
     <div className='contact-me' id='contact'>
       <h1>Let's work Together</h1>
       <section className='section'>
-      <form className='form'>
+      <form className='form' onSubmit={handleEmailClick}>
         <label htmlFor="name">Name</label>
         <input type="text" />
         <label htmlFor="subject">Subject</label>

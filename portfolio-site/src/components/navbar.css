@@ -17,6 +17,8 @@
     align-items:center;
     border-bottom: 1px solid #fff;
     font-family: "Montserrat";
+    z-index: 1;
+    position: fixed;
 }
 
 nav{
